@@ -203,12 +203,18 @@
             transform: scale(1);
             width: 100vw;
             z-index: 0;
-            background-image: url('');
-            background-size: 1536px;
+            background-image: url('MacBook Air - 1.png');
             background-position: center;
-            background-repeat: repeat;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
 
+        @media (max-width: 768px) {
+    body {
+        background-image: url('iPhone 14 - 1.png');
+        /* Adjust other styles as needed */
+    }
+}
         :root {
             --background-height: 100vh;
             --site-language-alignment: left;
